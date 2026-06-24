@@ -1,0 +1,147 @@
+# Enny Mtshweni — Portfolio Website
+
+A personal portfolio website built with HTML, CSS, and Bootstrap 5 — showcasing my projects, skills, and background as a full-stack developer and data analyst.
+
+ **Live Site:** [https://github.com/EnnyMtshweni]
+
+---
+
+##  Table of Contents
+
+- [Overview](#overview)
+- [Sections Implemented](#sections-implemented)
+- [Tech Stack](#tech-stack)
+- [Projects Featured](#projects-featured)
+- [Bonus Features](#bonus-features)
+- [Image Credits](#image-credits)
+- [Getting Started](#getting-started)
+- [Contact](#contact)
+
+---
+
+## Overview
+
+This portfolio was designed and built from scratch to present my work and skills to potential employers and collaborators. It combines a clean editorial aesthetic (Playfair Display + Inter) with a warm terracotta accent palette and is fully responsive across all screen sizes.
+
+---
+
+## Sections Implemented
+
+### 1.  Navigation Bar
+- Sticky top navbar with blur/glass effect using `backdrop-filter`
+- Smooth scroll links to all sections
+- Fully responsive with Bootstrap's hamburger collapse on mobile
+- Animated underline hover effect on nav links
+
+### 2.  Hero Section
+- Full-viewport background image with dark gradient overlay
+- Name, role subtitle, and two CTA buttons ("View My Work" / "Get in Touch")
+- Responsive typography using `clamp()` for fluid font sizing
+
+### 3.  About Me
+- Two-column card layout: profile sidebar + bio panel
+- Circular profile photo with accent border
+- Detail list: name, profile, phone, email
+- Skills badges grid (HTML, CSS, Bootstrap, JavaScript, Python, Django, SQL, Tableau, Power BI, PostgreSQL, Git)
+- Meta grid: location, availability status (with live green dot), focus area, project count
+
+### 4. Projects
+- Responsive 3-column card grid (collapses to 1 on mobile)
+- Each card includes: screenshot, tech stack label, title, description, live site link, GitHub link
+- Six projects showcased (see [Projects Featured](#projects-featured))
+- Hover lift effect on cards
+
+### 5. Contact
+- Social icon row: GitHub, LinkedIn, Email
+- Contact form with fields: Email, Name, Subject, Message
+- Accent-coloured focus ring on inputs
+- Bootstrap's `novalidate` form with required field attributes
+
+### 6. Footer
+- Simple dark footer with portfolio credit line
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Markup | HTML5 (semantic elements) |
+| Styling | CSS3 custom properties, Flexbox, CSS Grid |
+| Framework | Bootstrap 5.3.3 |
+| Icons | Bootstrap Icons 1.11.3 |
+| Fonts | Google Fonts — Playfair Display, Inter |
+| Hosting | GitHub Pages |
+
+---
+
+## Projects Featured
+
+| # | Project | Stack | Live |
+|---|---|---|---|
+| 1 | Tesla Landing Page | HTML, CSS | [View](https://ennymtshweni.github.io/Tesla-assignmemnt-page) |
+| 2 | Netflix Clone | HTML, CSS | [View](https://ennymtshweni.github.io/netflix-assignment-1/) |
+| 3 | YouTube Clone | HTML, CSS | [View](https://youtube-clonne2.netlify.app/) |
+| 4 | Global Layoffs Analysis | SQL, Tableau, Power BI | [View](https://ennymtshweni.github.io/Global-Layoffs-Analysis-2020-2023-SQL) |
+| 5 | Contact Book App | JS, HTML, Python | [View](https://ennymtshweni.github.io/ContactbookApp/) |
+| 6 | To-Do List App | HTML, CSS, JS | [View](https://ennymtshweni.github.io/to-do-list/) |
+
+---
+
+## Bonus Features
+
+- **Print stylesheet** — the `@media print` rule hides nav, hero, projects, and contact sections, leaving only the About card formatted cleanly for printing as a résumé
+- **Skip link** — a visually hidden "Skip to main content" link appears on keyboard focus for screen reader and keyboard accessibility
+- **Reduced motion support** — all transitions and animations are disabled for users who prefer reduced motion (`prefers-reduced-motion: reduce`)
+- **`aria-label` attributes** — icon-only buttons (GitHub, code links) have descriptive aria-labels for screen readers
+- **Fluid typography** — `clamp()` is used throughout so headings scale smoothly between mobile and desktop without breakpoint jumps
+- **CSS custom properties** — the entire colour palette and font stack is defined as tokens in `:root`, making theming straightforward
+- **`available-dot` indicator** — a pure-CSS animated green dot signals availability status without any JavaScript
+
+---
+
+## Image Credits
+
+| Asset | Source |
+|---|---|
+| Hero background | [Unsplash](https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-npxXWgQ33ZQ) — free to use under the [Unsplash License](https://unsplash.com/license) |
+| Profile photo | Personal photo — all rights reserved, Enny Mtshweni |
+| Tesla screenshot | Own work — screenshot of [Tesla assignment page](https://ennymtshweni.github.io/Tesla-assignmemnt-page) |
+| Netflix screenshot | Own work — screenshot of [Netflix clone](https://ennymtshweni.github.io/netflix-assignment-1/) |
+| YouTube screenshot | Own work — screenshot of [YouTube clone](https://youtube-clonne2.netlify.app/) |
+| Layoffs SQL screenshot | Own work — screenshot of [Global Layoffs project](https://ennymtshweni.github.io/Global-Layoffs-Analysis-2020-2023-SQL) |
+| Contact Book image | Own work / royalty-free `.webp` asset |
+| To-Do List screenshot | Own work — screenshot of [To-Do List app](https://ennymtshweni.github.io/to-do-list/) |
+
+---
+
+## Getting Started
+
+To run this project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/EnnyMtshweni/your-portfolio-repo.git
+
+# 2. Navigate into the folder
+cd your-portfolio-repo
+
+# 3. Open in your browser
+open index.html
+# or just double-click index.html in your file explorer
+```
+
+No build tools or dependencies needed — it's plain HTML/CSS.
+
+---
+
+## Contact
+
+**Enny Mtshweni**  
+ ennymtshweni03@gmail.com  
+ [LinkedIn](https://www.linkedin.com/in/enny-mtshweni)  
+ [GitHub](https://github.com/EnnyMtshweni)  
+
+---
+
+*This portfolio is continuously being updated with new projects and skills.*
